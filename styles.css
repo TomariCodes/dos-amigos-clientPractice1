@@ -1,0 +1,35 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+} 
+
+header {
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+   // border: 1px solid black;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    //border: 1px solid black;
+    width: 20vw;
+    height: 5vh;
+    justify-content: space-between;
+}
+
+button {
+    margin-left: 4%;
+    width: 10vw;
+    border: 1px solid grey;
+    border-radius: 15%;
+}
